@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*This is the home section*/
+.home {
+  width: 100%;
+  background-image: url("images/bg1.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home img {
+  margin-top: 100px;
+}
+
+.home .arrow:hover {
+  opacity: 0.5;
+}
+
+.home h1 {
+  font-size: 100px;
+  color: yellow;
+}
+
+.home p {
+  font-size: 20px;
+  color: white;
+}
+
+/*This is the first information section*/
+.info1 {
+  width: 100%;
+  background-image: url("images/bg2.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.info1 * {
+  margin: 50px;
+}
+
+.info1 h1 {
+  font-size: 100px;
+  color: yellow;
+  margin-top: 50px;
+}
+
+.info1 .pbtn {
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+.info1 .pbtn .btn1 {
+  background-color: yellow;
+  width: 100px;
+  height: 50px;
+}
+
+.info1 .btn1:hover {
+  background-color: rgb(214, 214, 13);
+}
+
+/*This is the tour information section*/
+.imageinfo {
+  width: 100%;
+  background-image: url("images/bg3.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageinfo h1 {
+  color: yellow;
+}
+.imageinfo * {
+  margin: 25px;
+}
+
+.imageinfo .image1 {
+  position: relative;
+}
+.imageinfo .image1 h1 {
+  position: absolute;
+  bottom: 48px;
+  left: 16px;
+}
+
+.imageinfo .image2 {
+  position: relative;
+}
+.imageinfo .image2 h1 {
+  position: absolute;
+  bottom: 48px;
+  left: 16px;
+}
+
+.imageinfo .image3 {
+  position: relative;
+}
+.imageinfo .image3 h1 {
+  position: absolute;
+  bottom: 48px;
+  left: 16px;
+}
+
+.imageinfo .arrow {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.imageinfo .arrow:hover {
+  opacity: 0.5;
+}
+.imageinfo #check1 {
+  display: none;
+}
+.imageinfo .image1 .text1 {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+
+  position: absolute;
+  width: 348px;
+  top: 8px;
+  display: none;
+}
+#check1:checked ~ .text1 {
+  display: block;
+}
+
+.imageinfo #check2 {
+  display: none;
+}
+.imageinfo .image2 .text2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+
+  position: absolute;
+  width: 348px;
+  top: 8px;
+  display: none;
+}
+#check2:checked ~ .text2 {
+  display: block;
+}
+
+.imageinfo #check3 {
+  display: none;
+}
+.imageinfo .image3 .text3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+
+  position: absolute;
+  width: 348px;
+  top: 8px;
+  display: none;
+}
+#check3:checked ~ .text3 {
+  display: block;
+}
+
+.imageinfo .btn2 {
+  background-color: yellow;
+  width: 100px;
+  height: 50px;
+}
+
+.imageinfo .btn2:hover {
+  background-color: rgb(214, 214, 13);
+}
+
+/*This is the second information section*/
+.info2 {
+  width: 100%;
+  background-image: url("images/bg7.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.info2 h1 {
+  margin: 50px;
+  color: yellow;
+  font-size: 100px;
+}
+
+.info2 .c2 {
+  margin: 50px;
+  color: white;
+}
+
+.info2 .c2 p {
+  font-size: 25px;
+  color: white;
+}
+
+.info2 .c2 h1 {
+  color: white;
+  font-size: 40px;
+}
+
+/*This is the stats section*/
+.stats {
+  width: 100%;
+  background-image: url("images/bg5.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  height: 750px;
+}
+
+.stats p {
+  color: white;
+}
+
+.stats h1 {
+  color: yellow;
+}
+
+.stats .stat {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 100px;
+  align-self: center;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*This is the quote section*/
+.quote {
+  width: 100%;
+  background-image: url("images/bg4.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.quote p {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.quote h1 {
+  color: yellow;
+}
+.quote .elmore {
+  margin: 50px;
+  border-radius: 50%;
+}
+.quote .arrow:hover {
+  opacity: 0.5;
+}
+
+/*This is the image section*/
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+/*This is the contact section*/
+.contact {
+  width: 100%;
+  background-image: url("images/bg6.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.contact .btn {
+  background-color: yellow;
+  width: 100px;
+  height: 50px;
+}
+
+.contact .btn:hover {
+  background-color: rgb(214, 214, 13);
+}
+
+.contact .links {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.contact h1 {
+  color: yellow;
+  font-size: 100px;
+}
+
+.contact .textfields {
+  margin: 100px;
+}
+.contact .textfields .name {
+  width: 500px;
+}
+
+.contact .textfields .message {
+  resize: none;
+  width: 500px;
+  height: 250px;
+}
